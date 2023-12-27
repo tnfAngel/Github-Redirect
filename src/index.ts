@@ -14,7 +14,7 @@ app.set("port", process.env.PORT || 3002);
 app.use(cors());
 
 // Your Github user
-const githubUser = "LautyDev";
+const githubUser = "tnfAngel";
 
 // Routes
 app.get("/", async (_req, res) => {
